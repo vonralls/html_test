@@ -1,0 +1,56 @@
+/* Stylings of Harry Potter */
+/* Von Ralls vonralls@gmail.com */
+/* colors:  Blue = 0092d8 Yellow = ffd900  */
+
+
+#header {
+	
+	background-color: #fff;
+	width: 100%;
+	font-family: 'Lora', serif;
+	text-align: center;
+	
+}
+
+#search {
+	
+	background-color: #ffd900;
+	width: 100%;
+	font-family: 'Lora', serif;
+	text-align: center;
+
+
+	
+}
+
+#search-content {
+	
+	width: 80%;
+	margin: auto;
+	vertical-align: middle;
+	
+}
+
+#results {
+	
+	background-color: #edebea;
+	width: 100%;
+	font-family: 'Lora', serif;
+	text-align: center;
+	
+}
+
+#results-content {
+	
+	width: 80%;
+	margin: auto;
+}
+
+
+#footer {
+	
+	background-color: #edebea;
+	width: 100%;
+	font-family: 'Lora', serif;
+	text-align: center;
+}
