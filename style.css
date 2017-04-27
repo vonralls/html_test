@@ -1,0 +1,84 @@
+/* CSS Document */
+/* Von Ralls vonralls@gmail.com */
+/* colors:  Blue = 0092d8 Yellow = ffd900  */
+
+
+/* header section */
+
+#header {
+	text-align: center;
+	
+	}
+	
+	
+/* Search section */	
+
+#search {
+	
+	background-color: #ffd900;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	
+	
+	
+	}
+	
+#search input.text {
+	
+	
+	width: 50%;
+	height: 45px;
+	color: #0092d8;
+	padding-left: 10px;
+	/* round corners */
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+		
+	}
+	
+/* Results Section */
+	
+#results {
+	
+	background-color: #edebda;
+	
+	}
+	
+#results p.alignleft {
+	
+		float: left;
+	
+	}
+	
+	
+#results p.alignright {
+	
+	   float: right;
+	
+	}
+	
+/* Footer Section */	
+	
+
+#footer {
+	
+	
+	
+	
+	
+	}
+	
+	
+#bookcover {
+	
+	
+	
+	
+	
+	}
+	
