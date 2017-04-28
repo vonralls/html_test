@@ -7,6 +7,12 @@ body {
 	background-color: #edebea;
 }
 
+#container {
+	
+	white-space: nowrap;
+	
+}
+
 #header {
 	
 	background-color: #fff;
@@ -71,6 +77,7 @@ body {
 	width: 100%;
 	font-family: 'Lora', serif;
 	text-align: center;
+	white-space: normal !important;
 	
 	
 }
