@@ -2,6 +2,10 @@
 /* Von Ralls vonralls@gmail.com */
 /* colors:  Blue = 0092d8 Yellow = ffd900  */
 
+body {
+	
+	background-color: #edebea;
+}
 
 #header {
 	
@@ -59,6 +63,8 @@
 	
 }
 
+
+
 #results {
 	
 	background-color: #edebea;
@@ -70,13 +76,53 @@
 
 #results-content {
 	
+	background-color: #edebea;
 	width: 80%;
 	margin: auto;
+	
+}
+#results-content p.alignleft {
+	
+		float: left;
+	
+	}
+	
+#results-content p.alignright {
+	
+	   float: right;
+	
+	}
+
+
+#results-content h1 {
+	float: left;
+	font-family: 'Lora', serif;
+	color: #0092d8;
+	
 }
 
+#results-list {
+	
+	clear: both;
+	text-align: left;
+}
+
+/*working on that overlay */
+
+.hilight {
+    background-color: #000;
+    position: absolute;
+    height: 85px;
+    width: 230px;
+    opacity: 0.65;
+    font-family: 'Lora', serif;
+    color: #FFF;
+    bottom: 0px;
+    z-index: 1;
+}
 
 #footer {
-	
+	float: left;
 	background-color: #edebea;
 	width: 100%;
 	font-family: 'Lora', serif;
