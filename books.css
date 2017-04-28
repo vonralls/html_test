@@ -15,19 +15,47 @@
 #search {
 	
 	background-color: #ffd900;
+	height: 100px;
 	width: 100%;
 	font-family: 'Lora', serif;
 	text-align: center;
-
-
+	
+  
 	
 }
+
+#search input {
+	vertical-align: middle;
+}
+
+#search img {
+	
+	vertical-align: middle;
+	
+}
+
+#search input.text {
+	
+	width: 60%;
+	height: 68px;
+	color: #0092d8;
+	padding-left: 10px;
+	/* round corners */
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+		
+	}
 
 #search-content {
 	
 	width: 80%;
 	margin: auto;
-	vertical-align: middle;
+	height: 100px;
+	line-height: 100px;
+	
 	
 }
 
@@ -52,5 +80,7 @@
 	background-color: #edebea;
 	width: 100%;
 	font-family: 'Lora', serif;
+	font-size: 12px;
 	text-align: center;
+	border-top: 1px solid black;
 }
