@@ -105,7 +105,56 @@ body {
 	
 	clear: both;
 	text-align: left;
+	width: 100%;
 }
+
+
+/* Didn't want to use a bg image, but haven't figured out a better way */
+#book-icon {
+	
+	width: 230px;
+	height: 340px;
+	background-image: url("images/bookcover_bg.jpg");
+	vertical-align: bottom;	
+	position: relative;
+	float: left;
+	margin: 5px;
+
+
+	
+	
+}
+
+#overlay {
+	
+	width: 230px;
+	height: 35%;
+	background-color: black;
+	background: rgb(0,0,0,0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0px;
+	text-align: right;
+	color: #fff;
+	
+	
+}
+
+#overlay p {
+	
+	padding-right: 10px;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	
+	
+}
+
+
+
+
+
+
+
 
 /*working on that overlay */
 
