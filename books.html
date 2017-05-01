@@ -5,7 +5,11 @@
 <title>Harry Potter | Books</title>
 <link rel="stylesheet" type ="text/css" href="books.css" />
 <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/clear.js"></script>
 </head>
+
+
 
 <body>
 <div id="container">
@@ -20,7 +24,7 @@
 	<div id="search-content">
 	
 	<form action="#" name="search">
-			<input class="text" type="text" value="Search by Title or Author..." />
+			<input id="textsearch" name="textsearch" class="text" type="text" value="Search by Title or Author..." />
 			<input type="image" src="images/search-new.png" alt="Submit" /> or
 		<a href="#"><img src="images/browse-new.png" /></a>
 		</form> 
@@ -35,7 +39,7 @@
 		<p class="alignleft"><h1>Search Results</h1></p>
 		<p class="alignright">Sort By: <select class="selectBox">
 			<option>Author</option>
-		</select></p>
+			</select></p>
 	<!--<div id="results-list">
 		First attempt - didn't work
 		<img src="bookcover.jpg" width="230"><div class="hilight">This is a description</div> 
