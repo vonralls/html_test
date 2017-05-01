@@ -107,7 +107,10 @@ body {
 	background-color: #edebea;
 	width: 80%;
 	margin: auto;
-		
+	
+	
+	
+	
 	
 }
 #results-content p.alignleft {
@@ -136,8 +139,6 @@ body {
 	clear: both;
 	text-align: left;
 	width: 100%;
-	margin: auto;
-	white-space: nowrap;
 	
 	
 }
@@ -196,10 +197,6 @@ body {
  
  
 }
-
-#video-tag-year p { 
-  margin-top: 7px;
-}
 #video-tag-category {
   
   background-color: black;
@@ -214,9 +211,65 @@ body {
  
 }
 
-#video-tag-category p { 
-  margin-top: 7px;
+/* Trying flex to build overlay */
+
+#mainBox {
+  width: 230px;
+  height: 340px;
+  background-image: url("images/bookcover_bg.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: left;
+ 
 }
+
+#topTags {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tag {
+  background-color: black;
+  font-family: 'Lora', serif;
+  color: #c0c0c0;
+  width: 75px;
+  height: 100%;
+  margin-right: 0px;
+  margin-left: 10px;
+  
+}
+
+.tag p {
+	
+	margin-top: 13px;
+	
+	
+}
+
+#bottomBox {
+  width: 100%;
+  height: 35%;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: right;
+  color: #fff;
+  white-space: normal !important;
+ 
+}
+
+#bottomBox p {
+	
+	padding-right: 10px;
+	
+}
+
+
+
+
 /*working on that overlay, but couldn't get this to work */
 /*
 .hilight {
