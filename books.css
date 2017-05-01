@@ -173,7 +173,7 @@ body {
   color: white;
   text-align: center;
   vertical-align: middle;
-  /* This is not ideal, but so far the only way i can figure out how to get the boxes here */
+  /* This is not great, but so far the only way i can figure out how to get the boxes here */
   position: absolute;
   top: 187px;
   left: 160px;
